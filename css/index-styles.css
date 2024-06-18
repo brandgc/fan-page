@@ -9,6 +9,10 @@ body {
 
 img {
     width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .center {
@@ -19,7 +23,7 @@ img {
 }
 
 h2 {
-    /* text-align: center; */
+    text-align: center;
     text-decoration: underline;
 }
 
@@ -38,4 +42,28 @@ h2 {
 
 blockquote {
     font-style: italic;
+}
+
+.center-table {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px;
+    border-spacing: 20px;
+}
+
+#quotes-section {
+    text-align: center;
+}
+
+
+#links-section {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+a:hover {
+    color:aqua;
 }
